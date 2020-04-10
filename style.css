@@ -11,7 +11,7 @@ body{
 
 @media screen and (max-width: 50em){
 	body{
-		background: url(https://images.unsplash.com/photo-1545529468-42764ef8c85f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+		background: url('bg-xs.jpg');
 		background-size: cover;
 		background-position: center;
 		font-family: 'Lato', sans-serif;
@@ -42,4 +42,16 @@ hr{
 .btn-default{
 	background-color: rgba(78, 208, 237, 0.3);
 	border:1px solid #597E8C;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 5px;
+	width: 100%;
+	text-align: right;
+	font-style: italic;
+}
+footer a{
+	margin-right: 5px;
 }
